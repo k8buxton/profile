@@ -1,0 +1,133 @@
+body {
+  background-color: rgba(240, 240, 240, 1);
+  font-family: 'Open Sans';
+  color: rgba(150, 150, 150, 1);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #5B6289;
+  color: rgb(192, 9, 30);
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 5x;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 5x;
+  color: rgb(100, 100, 100);
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 5x;
+  color: rgb(100, 100, 100);
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 5x;
+  color: rgb(170, 170, 170);
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+a {
+  font-size: 12px;
+  color: rgba(100, 100, 100, 1);
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+a:hover {
+  /*color: #2B497B;*/
+  color: #C0091E;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+    max-width: 170px;
+    height: auto;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  box-shadow: 1px 1px 1px rgb(200, 200, 200);
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-logos {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+td {
+  padding: 10px;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
