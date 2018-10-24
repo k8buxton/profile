@@ -2,6 +2,7 @@ body {
   /*background-color: rgba(240, 240, 240, 1);*/
   /*background-color: #D9D6CE;*/
   background-image: url("https://picsum.photos/1000/600?random");
+  background-size: cover;
   font-family: 'Open Sans';
   color: rgba(150, 150, 150, 1);
   font-size: 14px;
@@ -51,7 +52,7 @@ p {
   font-weight: 300;
   font-size: 12px;
   line-height: 5x;
-  color: rgb(170, 170, 170);
+  color: rgb(150, 150, 150);
   text-align: justify;
   letter-spacing: 1px;
 }
@@ -76,13 +77,15 @@ ul {
 }
 
 img {
-    max-width: 170px;
-    height: auto;
+  max-width: 170px;
+  height: auto;
 }
 
 .container {
   width: 500px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+  padding-top: 10px
+
 }
 
 @media (max-width: 960px) {
@@ -94,7 +97,7 @@ img {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+  width: 500px;
   }
 }
 @media (max-width: 540px) {
@@ -112,7 +115,7 @@ img {
 }
 
 .card {
-  background: white;
+  background: rgb(240, 240, 240, 0.85);
   padding: 25px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -120,7 +123,7 @@ img {
 }
 
 .card-logos {
-  background: white;
+  background: rgb(240, 240, 240, 0.85);
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -149,13 +152,16 @@ td {
   bottom: 0px;
   width: 250px;
   text-align: center;
+  padding-top: 200px;
 }
 
-#sidenav a {
-  padding: 6px 8px 6px 16px;
+#sidebar:hover {
+  color: #C0091E;
+}
+
+#sidebar a {
+  padding: 14px 8px 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
   display: block;
 }
 
@@ -165,4 +171,5 @@ td {
 
 #page-content {
   margin-left: 250px;
+  margin: 20px 20px 20px 420px;
 }
