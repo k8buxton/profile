@@ -1,5 +1,7 @@
 body {
-  background-color: rgba(240, 240, 240, 1);
+  /*background-color: rgba(240, 240, 240, 1);*/
+  /*background-color: #D9D6CE;*/
+  background-image: url("https://picsum.photos/1000/600?random");
   font-family: 'Open Sans';
   color: rgba(150, 150, 150, 1);
   font-size: 14px;
@@ -8,7 +10,6 @@ body {
 }
 
 h1 {
-  color: #5B6289;
   color: rgb(192, 9, 30);
   font-family: 'Roboto';
   font-weight: 300;
@@ -25,6 +26,7 @@ h2 {
   line-height: 5x;
   color: rgb(100, 100, 100);
   margin: 20px;
+  text-decoration: underline;
 }
 
 h3 {
@@ -33,6 +35,15 @@ h3 {
   font-size: 13px;
   line-height: 5x;
   color: rgb(100, 100, 100);
+}
+
+h4 {
+  font-family: 'Roboto';
+  color: rgb(192, 9, 30);
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 5x;
+  letter-spacing: 1.5px;
 }
 
 p {
@@ -130,4 +141,28 @@ td {
   padding-right: 15px;
 }
 
+#sidebar {
+  background-color: #212327;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 250px;
+  text-align: center;
+}
 
+#sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+#sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#page-content {
+  margin-left: 250px;
+}
